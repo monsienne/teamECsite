@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+table.horizontal-list-table {
+	width: 90%;
+}
+
+table.horizontal-list-table, th, td {
+	margin:0 auto;
+	border-collapse: collapse;
+  	padding-top:1%;
+	padding-bottom:1%;
+	border: 3px dotted #d3d3d3;
+	line-height: 1.5;
+	margin-top:3%;
+	font-size:15px;
+}
+
+table.horizontal-list-table th {
+	padding: 0.5rem;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	border-top:1px solid #fff;
+	border-left:1px solid #fff;
+	position:relative;
+	background: #eee;
+	color: #666666;
+}
+
+table.horizontal-list-table td {
+	padding: 0.5rem;
+	vertical-align: top;
+	text-align: left;
+	border-right:1px soid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
